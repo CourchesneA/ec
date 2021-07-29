@@ -54,6 +54,10 @@ uint16_t keymap_translate(uint16_t key);
 #define K_DISPLAY_MODE (KT_COMBO | COMBO_DISPLAY_MODE)
 #define COMBO_PRINT_SCREEN 1
 #define K_PRINT_SCREEN (KT_COMBO | COMBO_PRINT_SCREEN)
+#define COMBO_PAUSE 2
+#define K_PAUSE (KT_COMBO | COMBO_PAUSE)
+#define COMBO_BREAK 3
+#define K_BREAK (KT_COMBO | COMBO_BREAK)
 
 // SCI
 #define KT_SCI (0x4000)
